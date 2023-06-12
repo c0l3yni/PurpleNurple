@@ -2,11 +2,11 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
-		// far left bar background
-		"activityBar.background": "#070011",
-		// far left bar badge color
-		"activityBar.foreground": "#5914da",
-		"activityBar.inactiveForeground": "#5914da",
+		//very top bar
+        "titleBar.activeBackground": "#070011",
+        "titleBar.activeForeground": "#5914da",
+		"titleBar.inactiveBackground": "#070011",
+		"titleBar.inactiveForeground": "#c39df7",
 
 		// top bar with file path
         "breadcrumb.foreground": "#c39df7",
@@ -26,8 +26,8 @@
 		
 		//explorer 
 			//hover bachground and text
-			"list.hoverBackground": "#2f2044",
-			"list.hoverForeground": "#ceb3f1",
+			"list.hoverBackground": "#b784ff",
+			"list.hoverForeground": "#2f2044",
 			//not selected background and text
 			"list.inactiveSelectionBackground": "#2f2044",
 			"list.inactiveSelectionForeground": "#ceb3f1",
@@ -57,9 +57,11 @@
         "scrollbarSlider.hoverBackground": "#ae5dff",
 		"scrollbarSlider.activeBackground": "#ae5dff",
 		
-		//very top bar
-        "titleBar.activeBackground": "#2f2044",
-        "titleBar.activeForeground": "#c39df7",
+		// far left bar background
+		"activityBar.background": "#070011",
+		// far left bar badge color
+		"activityBar.foreground": "#5914da",
+		"activityBar.inactiveForeground": "#5914da",
 
 		// "editor.foreground": "#fff8f8",
 		// "list.focusBackground": "#2f2044",
@@ -86,7 +88,6 @@
 		// "extensionButton.prominentBackground": "#fe7c8e",
 		// "extensionButton.prominentForeground": "#ffffff",
 		// "extensionButton.prominentHoverBackground": "#fe7c8e",
-
 		// "input.background": "#202330",
 		// "inputOption.activeBorder": "#fe7c8e",
 		// "menu.separatorBackground": "#f3b4bf",
@@ -576,8 +577,6 @@
 		//"textPreformat.foreground": "#d7ba7d",
 		//"textSeparator.foreground": "#ffffff2e",
 		//"titleBar.activeForeground": "#cccccc",
-		//"titleBar.inactiveBackground": "#2d2f4299",
-		//"titleBar.inactiveForeground": "#cccccc99",
 		//"toolbar.activeBackground": "#63666750",
 		//"toolbar.hoverBackground": "#5a5d5e50",
 		//"tree.indentGuidesStroke": "#585858",
