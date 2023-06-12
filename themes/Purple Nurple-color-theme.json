@@ -4,7 +4,7 @@
 	"colors": {
 		//very top bar
         "titleBar.activeBackground": "#070011",
-        "titleBar.activeForeground": "#5914da",
+        "titleBar.activeForeground": "#7125ff",
 		"titleBar.inactiveBackground": "#070011",
 		"titleBar.inactiveForeground": "#c39df7",
 
@@ -20,9 +20,12 @@
 			"tab.inactiveBackground": "#070011",
 			"tab.inactiveForeground": "#c39df7",
 			//text of tab currently viewing
-			"tab.activeForeground": "#c4f7ce",
+			"tab.activeBackground": "#b784ff",
+			"tab.activeForeground": "#070011",
 			//hover text
 			"tab.hoverForeground": "#732da1",
+			//border
+			"tab.activeBorder": "#070011",
 		
 		//explorer 
 			//hover bachground and text
@@ -43,7 +46,7 @@
 		"editor.selectionBackground": "#a382c1",		
 		
 		//explorer background
-		"sideBar.background": "#080115",
+		"sideBar.background": "#28232f",
 		"sideBar.foreground": "#c39df7",
 		//border
 		"sideBar.border": "#4f356e",
@@ -53,15 +56,29 @@
         "statusBar.foreground": "#080115",
 
 		//scroll bar
-		"scrollbarSlider.background": "#f7c4ed",
-        "scrollbarSlider.hoverBackground": "#ae5dff",
-		"scrollbarSlider.activeBackground": "#ae5dff",
+		"scrollbarSlider.background": "#5c466f",
+        "scrollbarSlider.hoverBackground": "#7125ff",
+		"scrollbarSlider.activeBackground": "#7125ff",
 		
 		// far left bar background
 		"activityBar.background": "#070011",
 		// far left bar badge color
-		"activityBar.foreground": "#5914da",
-		"activityBar.inactiveForeground": "#5914da",
+		"activityBar.foreground": "#ceb3f1",
+		"activityBar.inactiveForeground": "#7125ff",
+
+		"editorBracketMatch.background": "#0064001a",
+		"editorBracketPairGuide.activeBackground1": "#2dffdf",
+		"editorBracketPairGuide.activeBackground2": "#b120ff",
+		"editorBracketPairGuide.activeBackground3": "#ff25d3",
+		"editorBracketPairGuide.activeBackground4": "#26ff5c",
+		"editorBracketPairGuide.activeBackground5": "#ffd631",
+		"editorBracketPairGuide.activeBackground6": "#ff4f34",
+		"editorBracketPairGuide.background1": "#2dffdf",
+		"editorBracketPairGuide.background2": "#b120ff",
+		"editorBracketPairGuide.background3": "#ff25d3",
+		"editorBracketPairGuide.background4": "#26ff5c",
+		"editorBracketPairGuide.background5": "#ffd631",
+		"editorBracketPairGuide.background6": "#ff4f34",
 
 		// "editor.foreground": "#fff8f8",
 		// "list.focusBackground": "#2f2044",
@@ -73,7 +90,6 @@
 		// "editorBracketMatch.border": "#f7c4ed",
 		// "scrollbar.shadow": "#374539",
 		// "editorGroupHeader.tabsBorder": "#374539",
-		// "tab.activeBorder": "#ceb3f1",
         // "tab.activeBorderTop": "#ceb3f1",
         // "tab.border": "#ceb3f1",
 		// "activityBarBadge.background": "#0f170f",
@@ -193,20 +209,7 @@
 		//"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
 		//"editor.stackFrameHighlightBackground": "#ffff0033",
 		//"editor.symbolHighlightBackground": "#ea5c0055",
-		//"editorActiveLineNumber.foreground": "#c6c6c6",
-		//"editorBracketMatch.background": "#0064001a",
-		//"editorBracketPairGuide.activeBackground1": "#00000000",
-		//"editorBracketPairGuide.activeBackground2": "#00000000",
-		//"editorBracketPairGuide.activeBackground3": "#00000000",
-		//"editorBracketPairGuide.activeBackground4": "#00000000",
-		//"editorBracketPairGuide.activeBackground5": "#00000000",
-		//"editorBracketPairGuide.activeBackground6": "#00000000",
-		//"editorBracketPairGuide.background1": "#00000000",
-		//"editorBracketPairGuide.background2": "#00000000",
-		//"editorBracketPairGuide.background3": "#00000000",
-		//"editorBracketPairGuide.background4": "#00000000",
-		//"editorBracketPairGuide.background5": "#00000000",
-		//"editorBracketPairGuide.background6": "#00000000",
+		"editorActiveLineNumber.foreground": "#c6c6c6",
 		//"editorCodeLens.foreground": "#999999",
 		//"editorCommentsWidget.rangeActiveBackground": "#d0963a1a",
 		//"editorCommentsWidget.rangeActiveBorder": "#d0963a66",
@@ -520,7 +523,6 @@
 		//"symbolIcon.typeParameterForeground": "#cccccc",
 		//"symbolIcon.unitForeground": "#cccccc",
 		//"symbolIcon.variableForeground": "#75beff",
-		//"tab.activeBackground": "#202330",
 		//"tab.activeModifiedBorder": "#3399cc",
 		//"tab.inactiveModifiedBorder": "#3399cc80",
 		//"tab.lastPinnedBorder": "#585858",
