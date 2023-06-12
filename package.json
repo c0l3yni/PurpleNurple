@@ -1,0 +1,21 @@
+{
+  "name": "purple-nurple",
+  "displayName": "Purple Nurple",
+  "description": "A recreation of the first time I made something Thomas had to have, ie my conemu theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Nurple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Purple Nurple-color-theme.json"
+      }
+    ]
+  }
+}
